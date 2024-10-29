@@ -1,0 +1,26 @@
+/* src/components/KanbanCard.css */
+
+.kanban-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .kanban-card h4 {
+    margin: 0 0 10px;
+    font-size: 1.1em;
+  }
+  
+  .kanban-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .status-icon {
+    width: 24px;
+    height: 24px;
+    float: right;
+  }
+  

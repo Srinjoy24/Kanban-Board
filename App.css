@@ -1,0 +1,85 @@
+.display-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+.display-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.display-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.chevron-icon {
+  margin-left: auto;
+  width: 12px;
+  height: 12px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown-section {
+}
+
+.dropdown-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.dropdown-select {
+  width: 200px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.grey-select {
+  color: grey;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 30px;
+}
+
+.ticket {
+  width: 350px;
+  font-weight: normal;
+}
+
+.userIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: green;
+}

@@ -1,0 +1,96 @@
+/* Reset styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main container for the display control */
+  .display-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Adjust width as needed */
+    position: relative;
+  }
+  
+  /* Styling for the display button */
+  .display-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and icon */
+    background-color: white; /* Button background color */
+    border: 1px solid lightgray; /* Button border */
+    padding: 3px 5px; /* Adjusted inner spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove default outline on focus */
+    box-shadow: none; /* Remove any shadow */
+  }
+  
+  /* Styling for display icon */
+  .display-icon {
+    width: 16px; /* Width of the display icon */
+    height: 16px; /* Height of the display icon */
+    margin-right: 3px; /* Reduced spacing between icon and text */
+  }
+  
+  /* Dropdown arrow styling */
+  .dropdown-arrow {
+    width: 16px; /* Width of the dropdown arrow */
+    height: 16px; /* Height of the dropdown arrow */
+    display: block; /* Ensure it behaves like a block element */
+    transition: transform 0.3s ease; /* Smooth rotation on open */
+  }
+  
+  /* Rotate dropdown arrow when open */
+  .dropdown-arrow.open {
+    transform: rotate(180deg); /* Rotate arrow when dropdown is opened */
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    display: flex;
+    flex-direction: column; /* Stack dropdown items vertically */
+    background: #f5f5f5; /* Dropdown background color */
+    padding: 10px; /* Inner spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 5px; /* Spacing from the button */
+    position: absolute; /* Position dropdown absolutely */
+    top: 40px; /* Positioning from the top */
+    width: 100%; /* Full width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Individual dropdown section styling */
+  .dropdown-section {
+    display: flex; /* Align label and select side by side */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Spacing between dropdown sections */
+  }
+  
+  /* Label styling for dropdowns */
+  .dropdown-label {
+    font-size: 14px; /* Font size for labels */
+    color: black; /* Text color */
+    margin-right: 8px; /* Spacing between label and select */
+  }
+  
+  /* Select element styling for dropdowns */
+  .dropdown-select {
+    width: 100%; /* Full width */
+    padding: 5px; /* Inner padding */
+    border: 1px solid #ccc; /* Border for select */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Styling for greyed-out select elements */
+  .grey-select {
+    color: grey; /* Text color for greyed out selects */
+  }
+  
+  /* Ensure consistent styling for all selects */
+  .dropdown select {
+    font-size: 14px; /* Font size for select options */
+    color: black; /* Text color for options */
+  }
+  
